@@ -13,7 +13,7 @@ While in the play mode the user/player will use the WASD keys to move around the
 and the mouse to look around. If the player gets to lost while in the maze, they can 
 press the esc key to go back to the maze creator.
 
-![](resources/Models/Maze.JPG)
+![](resources/myFile.gif)
 
 
  How does the program code work? How do the classes and functions fit together and
