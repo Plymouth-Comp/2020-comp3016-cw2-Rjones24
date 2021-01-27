@@ -2,12 +2,12 @@
 
 The product will be a maze creator proof-of-concept game where the user/player will create a 5x5 maze from a selection of 7 different predefined maze pieces and the user will be able to define the pieces rotation, allowing them to create their own unique maze.
 
-After this the user/player will be able to click a play button located at the bottom of the screen which will generate the maze that they have just designed for them self of someone else to play. the program will place them as a first-person player in the centre of the start tile. There opponents goal is to then get to the finish without getting too lost.
+After this the user/player will be able to click a play button located at the bottom of the screen which will generate the maze that they have just designed for themself or for someone else. The program will place them as a first-person player in the centre of the start tile. Their opponents goal is to get to the finish without getting too lost.
 
 
 How does the user interact with your executable? How do you open and control the software you wrote (exe file)?
 
-to open the project the user should naviagte to the .exe or application file and double click on it to open the project.
+To open the project the user should navigate to the .exe or application file and double click to open the project.
 
 Once the user opens the application they will be shown a UI menu with a create button near the bottom center of the screen.
 They can then click on this button which will take them to a create screen with a grid positioned in the center of the screen. This grid will allow the user to choose which piece will be in each position of the maze. This can be done by clicking on a loctaion on the grid. Then clicking and identifiying the piece that the user would like to change it to from the selection around the grid. The user is also then able to edit the roation of the piece by double clicking on its location.
@@ -26,7 +26,7 @@ How does the program code work? How do the classes and functions fit together an
 
 The program code works by fisrt inisalizing a two dimentinal array so that all the positions conatin the value of 0 and the the fist position contains the staart and the last contains the finish.
 
-Its then loads inn all of the images to create a sky box for later use as well as all of the modles that the program will  need to build the maze.
+Its then loads in all of the images to create a skybox for later use as well as all of the modles that the program will  need to build the maze.
 
 The maze build method loades all of the modles into there spesified location along with there collision bounds.
 
@@ -36,7 +36,7 @@ Optimisation
 
 The program sets the size of the collision array once the user presses the play button so that a array is not inisalized with slots that are not used nor where more slots are used.
 
-All of the modles are loaded in to a vecter so tha the program only neecs to load and look for then once and then they can be used over and over again.
+All of the modles are loaded in to a vectors so that the program only neecs to load and look for then once and then they can be used over and over again.
 
 What makes your program special and how does it compare to similar things? 
 
@@ -51,11 +51,11 @@ My project is unique as it uses Assimp to load in a set of models that I created
 
 what coud be added/ improved?
 
-the collision dectection response could be improved as currently it is only checking if the player walks straight into the walls of the maze.
+The collision dectection response could be improved as currently it is only checking if the player walks straight into the walls of the maze.
 
 More rules could be added to the Creator such as the outside mush contain a wall.
 
-Vedio Report:
+VIdio Report:
 
 
 [![](resources/Main_Menu.png)](https://www.youtube.com/watch?v=gQ22v8xw-DU&feature=youtu.be)
