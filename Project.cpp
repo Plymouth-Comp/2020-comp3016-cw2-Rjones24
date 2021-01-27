@@ -787,12 +787,14 @@ main(int argc, char** argv)
 				Rotate_Maze[i][j] = 0;
 		}
 	}
+
 	Maze[0][0] = 5;
 	Maze[4][4] = 6;
 	Rotate_Maze[4][4] = 2;
 
 	glfwInit();
 
+	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 	GLFWwindow* window = glfwCreateWindow(800, 600, "Maze creator", NULL, NULL);
 
 	glfwMakeContextCurrent(window);
