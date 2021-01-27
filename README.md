@@ -56,5 +56,5 @@ the collision dectection response could be improved as currently it is only chec
 More rules could be added to the Creator such as the outside mush contain a wall.
 
 Vedio Report:
-![](https://www.youtube.com/watch?v=gQ22v8xw-DU
+[![](resources/creator.gif)](https://www.youtube.com/watch?v=gQ22v8xw-DU&feature=youtu.be)
 
