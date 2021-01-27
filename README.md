@@ -18,7 +18,7 @@ For instance, selecting grid location (3, 2) and then the T junction from the to
 
 After this the user can select either the back button to go to the menu, the undo button to reset the maze to its starting maze or pressing the play button which puts the user into the 3D generated maze. In play mode the user/player will use the WASD keys to move around the maze and the mouse to look around. As well as this, there are collision boundaries on all walls so that if the player walks forward into a wall, they will not be able to travel throught it.
 
-![](resources/myFile.gif)
+![](resources/myRun.gif)
 
 I also implemented for the user, a system in which if the player gets too lost while in the maze, they can  press the esc key to go back to the maze creator. After a little useability testing this became necassary as some mazes became too complicated or had flaws that were only discovered during game play.
 
@@ -55,12 +55,6 @@ the collision dectection response could be improved as currently it is only chec
 
 More rules could be added to the Creator such as the outside mush contain a wall.
 
-//////////////////////////////////////////////////////////////////////////
+Vedio Report:
+![](https://www.youtube.com/watch?v=gQ22v8xw-DU
 
- Include a link to a video report that details the above but also goes into more detail on:
- Anything else which will helps us understand how your prototype works.
- Are there any software engineering issues, such as the trade-off between
-performance and good practice?
- A (brief) evaluation of what you think you have achieved, and what (if anything)
-you would do differently, knowing what you now know. Feel free to blow your
-trumpet!
